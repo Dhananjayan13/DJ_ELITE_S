@@ -272,22 +272,22 @@ tailwind.config = {
 const products = [
   {id:"banarasi-teal",name:"DJ Elite Teal Banarasi Silk",price:12499,image:"p1.jpg",fabric:"Silk",color:"Teal",occasion:"Wedding",category:"silk",description:"Hand-woven Banarasi silk with intricate gold zari border. A timeless heirloom from DJ Elite Sarees."},
   {id:"mint-chiffon",name:"DJ Elite Mint Chiffon Drape",price:4299,image:"p2.jpg",fabric:"Chiffon",color:"Mint",occasion:"Party",category:"party",description:"Featherlight chiffon with delicate floral embroidery. Effortless elegance for evening soirées."},
-  {id:"purple-kanjivaram",name:"DJ Elite Maharani Purple Kanjivaram",price:18999,image:"assets/p3.jpg",fabric:"Silk",color:"Purple",occasion:"Wedding",category:"wedding",description:"Pure Kanjivaram silk with temple border and gold zari. The crown jewel of bridal trousseaus."},
-  {id:"blush-organza",name:"DJ Elite Blush Organza",price:6799,image:"assets/p4.jpg",fabric:"Organza",color:"Blush Pink",occasion:"Party",category:"party",description:"Sheer organza with sequin shimmer. A romantic choice for receptions and cocktails."},
-  {id:"ivory-classic",name:"DJ Elite Ivory Cotton Classic",price:1899,image:"assets/p5.jpg",fabric:"Cotton",color:"Ivory",occasion:"Casual",category:"cotton",description:"Breathable cotton with maroon border. Daily elegance, woven with care."},
-  {id:"red-bridal",name:"DJ Elite Sindoor Red Bridal Silk",price:24999,image:"assets/p6.jpg",fabric:"Silk",color:"Red",occasion:"Wedding",category:"wedding",description:"Heritage bridal silk with intricate zari work. The saree of forever moments."},
-  {id:"ellampillai-classic",name:"DJ Elite Ellampillai Handloom Saree",price:3499,image:"assets/p2.jpg",fabric:"Silk",color:"Maroon & Gold",occasion:"Festival",category:"ellampillai",description:"Authentic Ellampillai handloom saree, hand-woven by Salem's master weavers — vibrant contrast borders and lustrous silk finish."},
-  {id:"ellampillai-peacock",name:"DJ Elite Ellampillai Peacock Silk",price:4299,image:"assets/p3.jpg",fabric:"Silk",color:"Peacock Blue",occasion:"Wedding",category:"ellampillai",description:"Traditional Ellampillai silk saree with peacock motif and rich zari pallu."},
-  {id:"salem-classic",name:"DJ Elite Salem Pattu Saree",price:5499,image:"assets/p1.jpg",fabric:"Silk",color:"Mustard Yellow",occasion:"Festival",category:"salem",description:"Classic Salem pattu saree with traditional checks and gold border. Hand-crafted in Ammapet, Salem."},
-  {id:"salem-cotton",name:"DJ Elite Salem Cotton Daily Wear",price:1499,image:"assets/p5.jpg",fabric:"Cotton",color:"Off White",occasion:"Casual",category:"salem",description:"Soft Salem cotton saree, breathable and easy-drape — perfect for everyday elegance."},
+  {id:"purple-kanjivaram",name:"DJ Elite Maharani Purple Kanjivaram",price:18999,image:"p3.jpg",fabric:"Silk",color:"Purple",occasion:"Wedding",category:"wedding",description:"Pure Kanjivaram silk with temple border and gold zari. The crown jewel of bridal trousseaus."},
+  {id:"blush-organza",name:"DJ Elite Blush Organza",price:6799,image:"p4.jpg",fabric:"Organza",color:"Blush Pink",occasion:"Party",category:"party",description:"Sheer organza with sequin shimmer. A romantic choice for receptions and cocktails."},
+  {id:"ivory-classic",name:"DJ Elite Ivory Cotton Classic",price:1899,image:"p5.jpg",fabric:"Cotton",color:"Ivory",occasion:"Casual",category:"cotton",description:"Breathable cotton with maroon border. Daily elegance, woven with care."},
+  {id:"red-bridal",name:"DJ Elite Sindoor Red Bridal Silk",price:24999,image:"p6.jpg",fabric:"Silk",color:"Red",occasion:"Wedding",category:"wedding",description:"Heritage bridal silk with intricate zari work. The saree of forever moments."},
+  {id:"ellampillai-classic",name:"DJ Elite Ellampillai Handloom Saree",price:3499,image:"p2.jpg",fabric:"Silk",color:"Maroon & Gold",occasion:"Festival",category:"ellampillai",description:"Authentic Ellampillai handloom saree, hand-woven by Salem's master weavers — vibrant contrast borders and lustrous silk finish."},
+  {id:"ellampillai-peacock",name:"DJ Elite Ellampillai Peacock Silk",price:4299,image:"p3.jpg",fabric:"Silk",color:"Peacock Blue",occasion:"Wedding",category:"ellampillai",description:"Traditional Ellampillai silk saree with peacock motif and rich zari pallu."},
+  {id:"salem-classic",name:"DJ Elite Salem Pattu Saree",price:5499,image:"p1.jpg",fabric:"Silk",color:"Mustard Yellow",occasion:"Festival",category:"salem",description:"Classic Salem pattu saree with traditional checks and gold border. Hand-crafted in Ammapet, Salem."},
+  {id:"salem-cotton",name:"DJ Elite Salem Cotton Daily Wear",price:1499,image:"p5.jpg",fabric:"Cotton",color:"Off White",occasion:"Casual",category:"salem",description:"Soft Salem cotton saree, breathable and easy-drape — perfect for everyday elegance."},
 ];
 const categories = [
-  {slug:"silk",name:"Silk Sarees",tagline:"Heirloom weaves",img:"assets/cat-silk.jpg"},
-  {slug:"cotton",name:"Cotton Sarees",tagline:"Daily elegance",img:"assets/cat-cotton.jpg"},
-  {slug:"wedding",name:"Wedding Collection",tagline:"Forever moments",img:"assets/cat-wedding.jpg"},
-  {slug:"party",name:"Party Wear",tagline:"Modern grace",img:"assets/cat-party.jpg"},
-  {slug:"ellampillai",name:"Ellampillai Sarees",tagline:"Salem's pride",img:"assets/p2.jpg"},
-  {slug:"salem",name:"Salem Sarees",tagline:"Local heritage",img:"assets/p1.jpg"},
+  {slug:"silk",name:"Silk Sarees",tagline:"Heirloom weaves",img:"cat-silk.jpg"},
+  {slug:"cotton",name:"Cotton Sarees",tagline:"Daily elegance",img:"cat-cotton.jpg"},
+  {slug:"wedding",name:"Wedding Collection",tagline:"Forever moments",img:"cat-wedding.jpg"},
+  {slug:"party",name:"Party Wear",tagline:"Modern grace",img:"cat-party.jpg"},
+  {slug:"ellampillai",name:"Ellampillai Sarees",tagline:"Salem's pride",img:"p2.jpg"},
+  {slug:"salem",name:"Salem Sarees",tagline:"Local heritage",img:"p1.jpg"},
 ];
 const fmtINR = n => new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(n);
 
